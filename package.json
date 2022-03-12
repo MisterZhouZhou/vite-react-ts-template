@@ -1,0 +1,32 @@
+{
+  "name": "react-vite-ts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start:qa": "vite -m qa"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.3",
+    "less": "^4.1.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vite-tsconfig-paths": "^3.4.1"
+  }
+}
