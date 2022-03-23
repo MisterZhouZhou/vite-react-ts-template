@@ -1,27 +1,26 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./",
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": false,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true, // 允许使用json数据
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    // "types": ["vite/client"],
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  },
-  "include": ["./src"],
-  "exclude": ["nodu_modules", "dist"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+	"compilerOptions": {
+		"baseUrl": "./",
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"allowJs": false,
+		"skipLibCheck": false,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true, // 允许使用json数据
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"],
+	"references": [{ "path": "./tsconfig.node.json" }]
 }

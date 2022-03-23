@@ -1,18 +1,16 @@
-/**
- * 接口地址
- * @description env 可为主要环境或自定义地址
- */
-export const apiAddress = 'http://localhost:4008';
+// 接口api地址
+export const URL = {
+	musicUrl: 'https://xxx.com'
+}
 
-/**
- * 开发代理前缀
- */
-export const proxyApi = '/api';
+// 全局常量
+export const CT = {
+	timeout: 9000
+}
 
-/**
- * 接口前缀
- * 判断环境，是否需要使用前缀
- * 生产环境不需要代理，同时本地配置的代理在生产环境也是不能用的
- */
+// serve delete
+// proxy 前缀
+export const proxyApi = '/api'
+export const apiAddress = 'http:/www.baidu.com'
 
-export const urlPrefix = process.env.NODE_ENV === 'development' ? proxyApi : '';
+export default {}
