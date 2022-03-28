@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-// import reactRefresh from '@vitejs/plugin-react-refresh'
+//import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react-refresh'
 // alias配置
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { apiAddress, proxyApi } from './src/config'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [react(), tsconfigPaths()],
+	plugins: [reactRefresh(), tsconfigPaths()],
 	base: './', //  生产环境资源路径
 	server: {
 		host: true,
